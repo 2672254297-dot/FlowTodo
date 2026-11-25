@@ -1,0 +1,38 @@
+{
+  "name": "FlowTodo",
+  "short_name": "FlowTodo",
+  "description": "本地任务、清单、课表、习惯、倒数日与专注统计",
+  "lang": "zh-CN",
+  "start_url": "./FlowTodo.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#F2F2F7",
+  "theme_color": "#F2F2F7",
+  "categories": ["productivity", "lifestyle"],
+  "icons": [
+    {
+      "src": "素材/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "素材/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "今天",
+      "short_name": "今天",
+      "url": "./FlowTodo.html?view=today"
+    },
+    {
+      "name": "专注",
+      "short_name": "专注",
+      "url": "./FlowTodo.html?view=focus"
+    }
+  ]
+}
